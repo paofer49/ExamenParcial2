@@ -8,6 +8,9 @@ namespace ExamenParcial2.Controller
 {
     interface Interface
     {
-
+        List<Object> Mostrar();
+        bool Agregar();
+        bool Actualizar();
+        bool Eliminar();
     }
 }
