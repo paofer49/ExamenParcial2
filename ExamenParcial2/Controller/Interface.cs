@@ -8,9 +8,9 @@ namespace ExamenParcial2.Controller
 {
     interface Interface
     {
-        List<Object> Mostrar();
-        bool Agregar();
-        bool Actualizar();
-        bool Eliminar();
+        List<Usuarios> Mostrar();
+        bool AgregarPersona(string nombre, int edad, DateTime fechanac, string correo);
+        bool Actualizar(int id, string nombre, int edad, DateTime fechanac, string correo);
+        bool Eliminar(int id);
     }
 }
